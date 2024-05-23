@@ -12,7 +12,7 @@ function callApi(estatus) {
   // Hacer una petición para un usuario con ID especifico
   axios
     .get(
-      "http://3.145.139.71/iot-car-control/back-end/apis/setRegistro.php?valorEstatus=" +
+      "https://3.145.139.71/iot-car-control/back-end/apis/setRegistro.php?valorEstatus=" +
         estatus
     )
     .then(function (response) {
